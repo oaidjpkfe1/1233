@@ -1,0 +1,320 @@
+/*color de barras del formulario*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+/*color y margenes del body*/
+body{
+margin: 0;
+padding: 0;
+background: rgba(113, 88, 226,1.0);
+}
+
+
+
+/*enlaces*/
+.menu{
+  margin-right: 2%;
+  float: right;
+  line-height: 100px;
+}
+.menu a{
+  margin-right: 50px;
+  border: none;
+  margin-right: auto;
+  padding: 8px;
+  width: 220px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  
+  font-size: 18px;
+}
+@media screen and (max-width:600px){
+  .menu a{
+    font-size: 17px;
+  }
+}
+@media screen and (max-width:600px){
+  .menu{
+    margin-right: 5%;
+  }
+}
+/*segundo enlace para darle otro diseño*/
+
+
+.menu a:hover{
+  transition: ease 1s;
+  background: white;
+  border-radius: 100px;
+  color: #b71540;
+}
+
+
+/*titulo*/
+.hero h1{
+  margin-top: 178px;
+  text-transform: uppercase;
+  font-family: impact;
+  font-size: 26px;
+  letter-spacing: 4px;
+  color: white; 
+  font-family: 'Sulphur Point', sans-serif;
+} 
+@media screen and (max-width:600px){
+.hero span{
+  font-size: 35px;
+}
+}
+/*bienvenido*/
+span{
+  font-size: 65px;
+  letter-spacing: 2px;
+  font-family: impact;
+}
+
+.button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom:15px;
+}
+.btn1:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+  background: #dddd;
+  text-decoration: none;
+  color: #b71540;
+  transition: ease 0.5s;
+}
+.btn2:hover{
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.8);
+  background: #dddd;
+  text-decoration: none;
+  color: #b71540;
+  transition: ease 0.5s;
+}
+
+
+
+.btn1{
+  padding: 12px 25px;
+  background: white;
+  text-decoration: none;
+  color: rgba(113, 88, 226,1.0);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+   
+}
+.btn2{
+  padding: 12px 25px;
+  background: white;
+  text-decoration: none;
+  color: rgba(113, 88, 226,1.0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+   
+}
+
+/*imagen de flecha*/
+.rowGray img{
+  width: auto;
+  text-align: center;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 3%;
+}
+@media screen and (max-width:600px){
+  .rowGray img{
+    margin-top: 15%;
+    height: 60px;
+  }
+}
+
+
+/*boton para regresar al header*/
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #ff4757;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 28px;
+  transition: all 1s ease;
+
+}
+.gotopbtn:hover{
+  
+  border-radius: 50%;
+
+  background: #ff6b81;
+  transition:  .25 ease;
+}
+
+/*informacion*/
+.CEO{
+padding: 40px 0;
+color: black;
+text-align: center;
+margin-top: 5%;
+margin-bottom: 3%;
+}
+.CEO h1{
+  color: #dddd;
+}
+.inner{
+max-width: 1050px;
+margin: auto;
+overflow: hidden;
+padding: 0 20px;
+
+}
+
+.border{
+width: 160px;
+height: 4px;
+background: #dddd; 
+margin: 26px auto;
+border-radius: 50px;
+}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background: white;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+border-radius: 10px;
+}
+.col{
+flex: 33.33%;
+max-width: 33.33%;
+box-sizing: border-box;
+padding: 15px;
+}
+.CEO{
+
+border-radius: 100px;
+}
+.CEO img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+.name{
+font-size: 20px;
+text-transform: uppercase;
+margin: 20px 0;
+}
+
+@media screen and (max-width:960px) {
+.col{
+flex: 100%;
+max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col{
+flex: 100%;
+max-width: 100%;
+}
+}
+
+/*atributos del desarrollo, diseñador de iconos y el cliente*/
+ .creado-por {
+	margin-bottom: 1px;
+	text-align: center;
+	font-size: 14px;
+  color: white;
+ margin-top: 5%;
+ 
+} 
+.creado-por a {color: #dddd;
+ }
+.creado-por a:hover {color: #8395a7;}
+
+
+
+
+
+
+/*enlaces de youtube (en la parte de informacion)*/
+.ir a{
+  font-size: 18px;
+  color: red;
+}
+
+/*enlace de facebook (en la parte de informacion)*/
+.ir1 a{
+  font-size: 18px;
+  color: #3b5998;
+}
+
+/*redes sociales*/
+footer .redes-sociales {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #000;
+	color: #fff;
+	margin: 20px;
+	text-align: center;
+	border-radius: 100px;
+	transition: 1s ease all;
+}
+
+footer .redes-sociales .twitter { color: #1da1f2; background: white;}
+footer .redes-sociales .instagram { color: #833AB4; background: white;}
+footer .redes-sociales .whatsapp { color: #25D366; background: white;}
+
+footer .redes-sociales a i {
+	font-size: 20px;
+	line-height: 60px;
+}
+
+footer .contenedor-icono:hover a {
+	animation: icono 1s ease;
+}
+
+@keyframes icono {
+	from {
+		transform: rotate3d(0,0,0,0);
+	}
+	to {
+		transform: rotate3d(0,1,0, 360deg);
+	}
+}
+
+/* ------------------------- */
+/* Mediaqueries "redes sociales"*/
+/* ------------------------- */
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	header .barra-busqueda {
+		width: 100%;
+	}
+}

@@ -1,0 +1,146 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*parrafo de nevio de correo*/
+.regresar{
+margin-top: 5%;
+}
+
+.regresar p{
+  background-color: #ddd;
+  padding: 20px 0;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  color: rgba(87, 101, 116,1.0);
+  border-radius: 10px;
+  width: 25%;
+}
+@media screen and (max-width:600px){
+ .regresar{ margin-top: 25%;
+}
+}
+
+@media screen and (max-width:600px){
+  .regresar p{
+    font-size: 20px;
+    width: 60%;
+}
+}
+@media screen and (max-width:940px){
+  .regresar p{
+    margin-top: 20%;
+    font-size: 25px;
+    width: 60%;
+}
+}      
+
+/* barra progreso*/
+.progress-bar {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  text-align: center;
+  width: 86.9%
+} 
+
+.progress-bar > div {
+  color: white;
+  background: rgba(95, 39, 205,1.0);
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 20px;
+  border-radius: 100px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.6);
+  -webkit-animation: progress-bar 3.9s;
+  -moz-animation: progress-bar 3.9s;
+} 
+
+@-webkit-keyframes progress-bar {
+ 0% { width: 0; }
+} 
+
+@-moz-keyframes progress-bar {
+  0% { width: 0; }
+}
+
+@media screen and (max-width:1400px){
+  .progress-bar{
+    width: 35%;
+  }
+}
+
+
+@media screen and (max-width:1100px){
+  .progress-bar{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:900px){
+  .progress-bar {
+    
+   width: 33.5%;
+} 
+}
+
+@media screen and (max-width:800px){
+  .progress-bar {
+   width: 40%;
+} 
+}
+
+@media screen and (max-width:600px){
+  .progress-bar {
+   width:  80%;
+} 
+}
+
+@media screen and (max-width:550px){
+  .progress-bar {
+   width: 58.4%;
+} 
+}
+
+@media screen and (max-width:500px){
+  .progress-bar {
+   width: 61.5%;
+} 
+}
+
+
+@media screen and (max-width:400px){
+  .progress-bar {
+   width: 77.5%;
+} 
+}
+
+
+
+@media screen and (max-width:300px){
+  .progress-bar {
+
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+  } 
+}
+
+
+@media screen and (max-width:400px){
+  .progress-bar {
+   width: 77.5%;
+} 
+}

@@ -1,0 +1,274 @@
+/*color de barras del formulario*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sulphur Point', sans-serif;
+  }
+  
+  /*color y margenes del body*/
+  body{
+  margin: 0;
+  padding: 0;
+  background: #5B51D8;
+  }
+  
+  /*titulo*/
+  .header{
+    height: 100px;
+    padding: 0 20px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+  }
+ 
+  /*titulo*/
+  .logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+  }
+  
+  /*enlaces*/
+  .menu{
+    float: right;
+    line-height: 100px;
+  }
+  .menu a{
+    border: none;
+    margin-right: auto;
+    padding: 8px;
+    width: 220px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #5B51D8;
+    transition: all 0.8s ease;
+    font-size: 18px;
+    border-radius: 100px;
+    background: white;
+  }
+  @media screen and (max-width:600px){
+    .menu a{
+      font-size: 18px;
+    }
+  }
+  /*segundo enlace para darle otro diseño*/
+
+  .hola{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    background:rgba(113, 88, 226,1.0);
+    border-radius: 100px;
+  }
+  .hola:hover{
+    background: white;
+    border-radius: 100px;
+    color: rgba(113, 88, 226,1.0);
+  }
+  .menu a:hover{
+    
+    color: #C13584;
+  }
+
+  /*formulario*/
+  .formulario_titulo {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+    padding-top: 20px;
+  }
+
+  form{
+    background: #fff;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    margin: auto;
+    color: rgba(99, 110, 114,1.0);
+    margin-bottom: 5%;
+  }
+  @media screen and (max-width:400px){
+    form{
+     margin-bottom: 10%;
+    }
+  }
+  @media screen and (max-width:800px){
+    form{
+     margin-bottom: 5%;
+    }
+  }
+
+  .form{
+    width: 100%;
+    margin: auto;
+  }
+  
+  form .grupo{
+    position: relative;
+    margin: 45px;
+  }
+  
+  input, textarea{
+    background: #dddd;
+    color:#c6c6c6;
+    font-size: 20px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 95%;
+    border:none;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
+    border-radius: 5px;
+  }
+  
+  input:focus,textarea:focus{
+    outline: none;
+    color: rgb(94,93,93);
+    border: 1px solid #dddd;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  
+  }
+  
+  input:focus~label, 
+  input:valid~label, 
+  textarea:focus~label, textarea:valid~label{
+    position: absolute;
+    top: -19px;
+    font-size: 14.5px;
+    color: rgb(94,93,93);
+    transition: ease all 0.1s;
+  }
+  
+  label{
+    color: var(--colorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top:10px;
+    transition: 0.1s ease all;
+    pointer-events: none;
+  }
+  
+  
+  input:focus~.barra::before, textarea:focus~.barra::before{
+    width: 100%;
+  }
+  
+  /*boton de submit"enviar", boton reset"borrar datos" en el formulario*/
+  .boton2 {
+    background: rgba(108, 92, 231,1.0);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    border: 1px solid rgba(108, 92, 231,1.0);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-bottom: 7%;
+    box-shadow: 0 4px 16px rgba(108, 92, 231,1.0);
+  }
+  @media screen and (max-width:600px){
+    .boton2{
+        font-size: 16px;
+     
+    }
+  }
+  .boton2:hover {
+    background: rgba(108, 92, 231,0.8);
+    color: white;
+    border: 1px solid rgba(108, 92, 231,0);
+    box-shadow: 0 4px 16px rgba(108, 92, 231,1.0);
+    transition: all 0.5s ease;
+  }
+  
+  @media screen and (max-width:1100px){
+    form{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    form{
+        width: 60%;
+    }
+  }
+  
+  @media screen and (max-width:450px){
+    form{
+        width: 80%;
+    
+    }
+  }
+  
+  @media screen and (max-width:300px){
+    form{
+        width: 90%;
+    }
+  }
+  
+  
+  
+
+  .boton3 {
+    background: white;
+    color: rgba(99, 110, 114,1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgba(108, 92, 231,1) solid 1px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .boton3:hover {
+    
+    color: rgba(108, 92, 231,1);
+    transition: all 0.4s ease;
+  }
+  
+  @media screen and (max-width:1100px){
+    form{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    form{
+        width: 60%;
+    }
+  }
+  
+  @media screen and (max-width:450px){
+    form{
+        width: 80%;
+    }
+  }
+  
+  @media screen and (max-width:300px){
+    form{
+        width: 90%;
+    }
+  }
+
+  
+  
+/*atributos del desarrollo, diseñador de iconos y el cliente*/
+ .creado-por {
+	margin-bottom: 1px;
+	text-align: center;
+	font-size: 14px;
+  color: #2d3436;
+ margin-top: 5%;
+ 
+} 
+.creado-por a {color: #2d3436;
+ }
+.creado-por a:hover {color: white;}
+
